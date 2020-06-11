@@ -1,9 +1,5 @@
-provider "azurerm" {
-  version = "=2.0.0"
-  features {}
-}
+provider "tencentcloud" {}
 
-resource "azurerm_resource_group" "vscode" {
-  name     = "vscode-resources"
-  location = "Japan East"
+data "tencentcloud_instances" "vscode-vm" {
+  instance_id = "ins-aryrqxlx"
 }
