@@ -1,2 +1,2 @@
-# azure-vscode-remote-vm
-Azure terraform infra for vscode remote vm.
+# vscode-remote-vm
+Terraform infra for vscode remote vm.
